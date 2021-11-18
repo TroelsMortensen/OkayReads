@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 
-<BorderPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16"
-            xmlns:fx="http://javafx.com/fxml/1" fx:controller="okayreads.views.mainview.MainViewController">
+<BorderPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="okayreads.views.mainview.MainViewController">
     <center>
-        <AnchorPane fx:id="subViewContent" style="-fx-background-color: #d9d9ff;" BorderPane.alignment="CENTER"/>
+        <AnchorPane fx:id="subViewContent" style="-fx-background-color: #d9d9ff;" BorderPane.alignment="CENTER" />
     </center>
     <top>
         <HBox prefHeight="25.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
             <children>
-                <Button mnemonicParsing="false" onAction="#openBooksView" text="Books"/>
+                <Button mnemonicParsing="false" onAction="#openBooksView" text="Books" />
+            <TextField fx:id="searchField" prefHeight="25.0" prefWidth="241.0" />
+            <Button mnemonicParsing="false" onAction="#onSearch" text="Search" />
             </children>
         </HBox>
     </top>

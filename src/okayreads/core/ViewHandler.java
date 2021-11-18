@@ -62,7 +62,7 @@ public class ViewHandler {
         }
     }
 
-    public Parent openSubView(String path) {
-        return openSubView(path, null);
-    }
+//    public Parent openSubView(String path) {
+//        return openSubView(path, null);
+//    }
 }

@@ -1,21 +1,30 @@
 package okayreads.views.mainview;
 
-import javafx.scene.Node;
 import javafx.scene.Parent;
+import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.VBox;
 import okayreads.core.ViewHandler;
 
 public class MainViewController {
 
     public AnchorPane subViewContent;
+    public TextField searchField;
 
     public void init() {
 
     }
 
     public void openBooksView() {
-        Parent subViewRoot = ViewHandler.getInstance().openSubView("viewbooks/BooksView");
+        loadView("viewbooks/BooksView", null);
+    }
+
+    public void onSearch() {
+        String searchString = searchField.getText();
+        loadView("search/SearchView", searchString);
+    }
+
+    private void loadView(String path, Object args) {
+        Parent subViewRoot = ViewHandler.getInstance().openSubView(path, args);
 
         AnchorPane.setTopAnchor(subViewRoot, 0.0);
         AnchorPane.setRightAnchor(subViewRoot, 0.0);
