@@ -3,8 +3,12 @@
 The plan with this project is to make a desktop app, using JavaFX, which is sort of like goodreads.com.
 The main point is to demonstrate how to have a main view, and sub-views can be swapped out.
 
-A YouTube series will be available.
+A YouTube series will be available, each video will cover a different branch. You can see the matching code by changing branch, like this:
+<kbd>
+![Alt Text](https://github.com/TroelsMortensen/TodoAppWalkthrough/blob/master/MultipleBranches.gif)
+</kbd>
 
+## Branches
 I have split the implementation across several branches, see overview below:
 * Part 1 - The main view is in place
 * Part 2 - The book overview can be opened. No functionality yet. Spent too much time trying to git panes to fit in size :(
