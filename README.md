@@ -2,7 +2,7 @@
 
 The plan with this project is to make a desktop app, using JavaFX, which is sort of like goodreads.com.
 The main point is to demonstrate how to have a main view, and sub-views can be swapped out.
-this  is a test
+
 YouTube series here
 
 https://youtube.com/playlist?list=PL5I0mJDB37i_LKoowdQ1fdIRWWgLSIpzf
