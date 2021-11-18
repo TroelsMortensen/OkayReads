@@ -8,7 +8,9 @@ public class OkayReadsApplication extends Application{
     @Override
     public void start(Stage stage) throws Exception {
         stage.setMaximized(true);
-        ViewHandler vh = new ViewHandler(stage);
-        vh.start();
+
+        ViewHandler instance = ViewHandler.getInstance();
+        instance.setPrimaryStage(stage);
+        instance.start();
     }
 }
