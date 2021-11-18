@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="okayreads.mainview.MainViewController">
+   <children>
+      <VBox>
+         <children>
+            <HBox prefHeight="25.0" prefWidth="1000.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Books" />
+               </children>
+            </HBox>
+            <AnchorPane prefHeight="775.0" prefWidth="1000.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
