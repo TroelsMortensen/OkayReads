@@ -5,7 +5,7 @@ The main point is to demonstrate how to have a main view, and sub-views can be s
 
 A YouTube series will be available, each video will cover a different branch. You can see the matching code by changing branch, like this:
 <kbd>
-![Alt Text](https://github.com/TroelsMortensen/TodoAppWalkthrough/blob/master/MultipleBranches.gif)
+![Alt Text](https://github.com/TroelsMortensen/OkayReads/blob/master/DifferentBranches.gif)
 </kbd>
 
 ## Branches
